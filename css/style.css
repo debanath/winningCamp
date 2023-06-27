@@ -1,0 +1,131 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+nav .logo h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+nav .nav-links a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Style the features section */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.feature {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.feature img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1.1rem;
+}
+
+/* Style the testimonial section */
+.testimonial {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonial h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.testimonial cite {
+  font-style: italic;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
